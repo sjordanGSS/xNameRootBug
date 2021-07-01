@@ -24,7 +24,7 @@ namespace xNameRootBug
 
         private void Button_Clicked(object sender, EventArgs e)
         {
-            Debug.WriteLine($"clicked called from {this.GetType()}");
+            Debug.WriteLine($"Clicked called from {this.GetType()}");
         }
     }
 }
